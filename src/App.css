@@ -1,0 +1,44 @@
+#root, html, body{
+  padding:0;
+  margin:0;
+
+}
+
+.App {
+  text-align: center;
+  align-items:center;
+  justify-content:center;
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url('./images/lamp.jpg');
+  background-size:cover;
+  background-position:center;
+  background-attachment: fixed;
+  height:100vh;
+  margin-top:1px;
+  padding-top:10px;
+  margin-bottom:10px;
+  font-family:cursive;
+}
+.card{
+  background-color:white;
+  display:flex;
+  flex-direction:column;
+  border-radius:30px;
+  margin:100px 20px 20px 20px;
+}
+.buttons{
+  color:rgb(9, 226, 9);
+  border:none;
+  border-radius: 10px;
+  margin-bottom:2%;
+  height:40px;
+  width:150px;
+  font-size:20px;
+  margin-left:230px;
+  font-weight:bold;
+  font-family: cursive;
+}
+.buttons:hover{
+  color:red;
+  background-color:black;
+}
+
